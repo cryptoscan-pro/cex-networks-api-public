@@ -1,0 +1,51 @@
+{
+  "name": "cex-networks-api-cryptoscan",
+  "version": "1.0.0",
+  "description": "API to get real-time networks statuses and listen to network updates for over 100 exchanges.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "bun start",
+    "dev": "bun dev",
+    "build": "bun build",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "keywords": [
+    "cex",
+    "networks",
+    "api",
+    "realtime",
+    "websocket",
+    "http",
+    "exchange",
+    "cryptocurrency"
+  ],
+  "author": "Cryptoscan Team",
+  "license": "ISC",
+  "homepage": "https://t.me/dan_cryptoscan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cryptoscan-pro/cex-networks-api-public"
+  },
+  "bugs": {
+    "url": "https://github.com/cryptoscan-pro/cex-networks-api-public/issues"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.1.0",
+    "dotenv": "^16.3.1",
+    "hono": "^3.1.0",
+    "ws": "^8.13.0",
+    "@javeoff/ws-reconnect": "^1.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0",
+    "bun-types": "^0.5.0",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "bun": ">=0.6.0"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://t.me/dan_cryptoscan"
+  }
+}
